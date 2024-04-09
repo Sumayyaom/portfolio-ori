@@ -191,3 +191,43 @@ img{
        padding-left: 12%;
     }
 }
+
+.container-contact{
+    background-color: rgb(41, 38, 38);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+input{
+    width : 50%;
+    background: transparent;
+    color : white;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+textarea{
+    width : 50%;
+    background: transparent;
+    color : white;
+    margin: 8px 0;
+    padding: 12px 20px;
+}
+
+button{
+    width : 50%;
+    color : white;
+    padding: 12px 20px;
+    background-color: rgb(45, 69, 94);
+    font-size:  24px;
+}
+
+input::placeholder{
+    font-style: italic;
+}
+
+textarea::placeholder{
+    font-style: italic;
+}
